@@ -1,0 +1,82 @@
+/*CSS Style definitions start here*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p#divider {
+    margin: 2em 0; /*SEPERATES NAV LISTS*/
+}
+
+
+nav a {
+    color: #FFF;
+    text-decoration: none;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 1.2em
+
+} 
+
+
+/*TOP NAVIGATION*/
+nav#top {
+    background-color: #ff6700
+}
+
+
+
+nav#top ul {
+    list-style: none;
+    padding: 24px 0;
+    text-align: center;
+}
+
+nav#top li {
+ display: inline;
+}
+
+
+nav#top a:link, nav#top a:visited {
+    padding: 8px 16px;
+    display: inline-block;
+    width: 120px;
+    margin: 6px 12px;
+}
+
+
+nav#top a:hover {
+    background-color: #ff6700
+}
+
+
+/*LEFT NAVIGATION*/
+
+
+
+nav#left ul{
+    list-style: none;
+    margin-left: 16px;
+}
+
+nav#left li {
+}
+
+
+nav#left a:link, nav#top a:visited {
+    display: block;
+    width: 144px;
+    margin-bottom: 12px;
+    padding: 8px 8px;
+    background-color: #002366;
+    border-radius: 8px;
+    -wenkit-box-shadow: 5px 5px 7xp 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 5px 5px 7px 0px rgba(0,0,0,0.3);
+    box-shadow: 5px 5px 7px 0px rgba (0,0,0,0.3);
+}
+
+nav#left a:hover {
+    background-color: #ff6700
+}
+
+
