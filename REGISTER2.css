@@ -1,0 +1,25 @@
+body {
+    margin: 2em;
+}
+
+form {
+    width: 600px;
+    background-color: #c6eaf7;
+    border: 2px solid #0f5b84;
+    border-radius: 20px;
+    padding: 2em;
+}
+
+td{
+   padding-bottom: 1em;
+    
+}
+
+
+td.label {
+    width: 150px;
+    float: left;
+    margin-bottom: 1em;
+    text-align: right;
+    padding-right: 1em;
+}
