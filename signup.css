@@ -1,0 +1,22 @@
+/*CSS Document*/
+
+body {
+    margin: 2em;
+}
+
+form {
+    width: 600px;
+    background-color: #d5ebf7;
+    border: 2px solid #0f5b84;
+    border-radius: 20px;
+    padding: 2em;
+}
+
+td {
+    padding-bottom: 1em;
+}
+
+td.label {
+    padding-right: 1em;
+    text-align: right;
+}
